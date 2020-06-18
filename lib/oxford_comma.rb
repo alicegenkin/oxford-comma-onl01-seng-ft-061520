@@ -4,8 +4,8 @@ if array.length == 2
 elsif array.length == 3
   array[0,1].join(,)
   array[2].join(" and ")
-  
-  
+
+
 else array.join(",")
 end
 end
