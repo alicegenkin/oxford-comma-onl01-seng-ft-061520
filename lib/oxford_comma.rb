@@ -4,8 +4,8 @@ if array.length == 2
 elsif array.length == 3
   new_last_array_item = "and #{array[-1]}"
   array.pop
-  array.push(new_last_array_item)
-  array.join(" ")
+  newArray = array.push(new_last_array_item)
+  newArray.join
 else array.join(",")
 end
 end
