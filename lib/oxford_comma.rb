@@ -5,7 +5,7 @@ elsif array.length == 3
   new_last_array_item = "and #{array[-1]}"
   array.pop
   newArray = array.push(new_last_array_item)
-  newArray.join
+  newArray.join(" ")
 else array.join(",")
 end
 end
